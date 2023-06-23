@@ -1,0 +1,38 @@
+import { initializeApp } from "firebase/app";
+import {
+    getFirestore,
+    collection,
+    addDoc,
+    getDocs,
+    doc,
+    getDoc,
+    query,
+    where,
+    setDoc,
+    deleteDoc,
+    onSnapshot
+} from '@firebase/firestore'
+import { deleteObject, getDownloadURL, getStorage, listAll, ref, uploadBytes } from "firebase/storage"
+import { getAuth, } from "firebase/auth";
+import { useEffect } from "react";
+
+
+
+const firebaseConfig = {
+    apiKey: import.meta.env.VITE_APIKEY,
+    authDomain: import.meta.env.VITE_AUTHDOMAIN,
+    projectId: import.meta.env.VITE_PROJECTID,
+    storageBucket: import.meta.env.VITE_STORAGEBUCKET,
+    messagingSenderId: import.meta.env.VITE_MESSAGINGSENDERID,
+    appId: import.meta.env.VITE_APPID,
+    measurementId: import.meta.env.VITE_MEASUREMENTID
+};
+
+
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+export const db = getFirestore(app)
+export const auth = getAuth(app)
+export const storage = getStorage(app)
+
