@@ -103,19 +103,26 @@ export const SectionOne = () => {
             <StyledText4>{idioma.phrase}</StyledText4>
 
             <ContainerFlex>
-              <StyledButton1>
-                <ContainerFlex2>
-                  <AiFillGithubs />
-                  <Text5> Github</Text5>
-                </ContainerFlex2>
-              </StyledButton1>
+              <a target="_blank" href="https://github.com/PDuban05">
+                <StyledButton1>
+                  <ContainerFlex2>
+                    <AiFillGithubs />
+                    <Text5> Github</Text5>
+                  </ContainerFlex2>
+                </StyledButton1>
+              </a>
 
-              <StyledButton21>
-                <ContainerFlex2>
-                  <MdOutlineContactPages />
-                  <Text5> Descargar CV</Text5>
-                </ContainerFlex2>
-              </StyledButton21>
+              <a
+                target="_blank"
+                href="https://firebasestorage.googleapis.com/v0/b/tienda-e-commerce-55251.appspot.com/o/Proyects%2FPedroDubanMoreno.pdf?alt=media&token=eed8529c-1115-49d0-8f32-8e4fd64f4029"
+              >
+                <StyledButton21>
+                  <ContainerFlex2>
+                    <MdOutlineContactPages />
+                    <Text5> Descargar CV</Text5>
+                  </ContainerFlex2>
+                </StyledButton21>
+              </a>
             </ContainerFlex>
           </ContainerText>
         </ContainerPage>
