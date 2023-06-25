@@ -74,6 +74,10 @@ const createStyledText = (TextComponent) => styled(TextComponent)`
     text-align: center;
   }
 `;
+const Styleda = styled.a`
+  width: 100%;
+  height: 100%;
+`;
 
 const StyledText1 = createStyledText(Text1);
 const StyledText2 = createStyledText(Text2);
@@ -103,26 +107,26 @@ export const SectionOne = () => {
             <StyledText4>{idioma.phrase}</StyledText4>
 
             <ContainerFlex>
-              <a target="_blank" href="https://github.com/PDuban05">
-                <StyledButton1>
+              <StyledButton1>
+                <Styleda target="_blank" href="https://github.com/PDuban05">
                   <ContainerFlex2>
                     <AiFillGithubs />
                     <Text5> Github</Text5>
                   </ContainerFlex2>
-                </StyledButton1>
-              </a>
+                </Styleda>
+              </StyledButton1>
 
-              <a
-                target="_blank"
-                href="https://firebasestorage.googleapis.com/v0/b/tienda-e-commerce-55251.appspot.com/o/Proyects%2FPedroDubanMoreno.pdf?alt=media&token=eed8529c-1115-49d0-8f32-8e4fd64f4029"
-              >
-                <StyledButton21>
+              <StyledButton21>
+                <Styleda
+                  target="_blank"
+                  href="https://firebasestorage.googleapis.com/v0/b/tienda-e-commerce-55251.appspot.com/o/Proyects%2FPedroDubanMoreno.pdf?alt=media&token=eed8529c-1115-49d0-8f32-8e4fd64f4029"
+                >
                   <ContainerFlex2>
                     <MdOutlineContactPages />
                     <Text5> Descargar CV</Text5>
                   </ContainerFlex2>
-                </StyledButton21>
-              </a>
+                </Styleda>
+              </StyledButton21>
             </ContainerFlex>
           </ContainerText>
         </ContainerPage>

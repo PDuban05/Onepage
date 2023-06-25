@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
+export const Container = styled.article`
   width: 100%;
   height: auto;
 `;
 
-export const ContainerSection = styled.div`
+export const ContainerSection = styled.section`
   width: 100%;
   height: 100vh;
 `;

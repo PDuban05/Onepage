@@ -16,7 +16,7 @@ import styled from "styled-components";
 import { useDispatch, useSelector } from "react-redux";
 import { StateUpdate } from "../../../features/lenguaje/IdiomaSlice";
 
-const ContainerLink = styled.div`
+const ContainerLink = styled.nav`
   height: 100%;
   display: flex;
   align-items: center;

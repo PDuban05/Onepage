@@ -154,7 +154,7 @@ const SectionThird = () => {
                 </ContainerCardBody>
                 <ContainerCardFooter>
                   <a
-                    href="https://tienda-virtual-try1.netlify.app/#/"
+                    href="https://calculadoradefisica.online/index.html"
                     target="_blank"
                   >
                     <Text71> Demo</Text71>

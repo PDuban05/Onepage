@@ -15,9 +15,9 @@ import styled from "styled-components";
 const HomePage = () => {
   return (
     <ThemeProvider>
-      <Container>
-        <NavBar />
+      <NavBar />
 
+      <Container>
         <SectionOne />
 
         <SectionTwo />
