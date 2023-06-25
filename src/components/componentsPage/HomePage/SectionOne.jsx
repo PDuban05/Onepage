@@ -77,6 +77,9 @@ const createStyledText = (TextComponent) => styled(TextComponent)`
 const Styleda = styled.a`
   width: 100%;
   height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;
 
 const StyledText1 = createStyledText(Text1);
