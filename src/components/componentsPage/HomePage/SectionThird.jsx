@@ -120,10 +120,7 @@ const SectionThird = () => {
                   </ContainerFlex>
                 </ContainerCardBody>
                 <ContainerCardFooter>
-                  <a
-                    href="https://tienda-virtual-try1.netlify.app/#/"
-                    target="_blank"
-                  >
+                  <a href="https://markwall.netlify.app/#/" target="_blank">
                     <Text71> Demo</Text71>
                   </a>
                 </ContainerCardFooter>
