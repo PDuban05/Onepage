@@ -122,7 +122,7 @@ export const SectionOne = () => {
               <StyledButton21>
                 <Styleda
                   target="_blank"
-                  href="https://firebasestorage.googleapis.com/v0/b/tienda-e-commerce-55251.appspot.com/o/Proyects%2FPedroDubanMoreno.pdf?alt=media&token=eed8529c-1115-49d0-8f32-8e4fd64f4029"
+                  href="https://firebasestorage.googleapis.com/v0/b/tienda-e-commerce-55251.appspot.com/o/Proyects%2FpedroMoreno.pdf?alt=media&token=294a0bbb-2e32-4bf4-b523-ab6ecc089722"
                 >
                   <ContainerFlex2>
                     <MdOutlineContactPages />

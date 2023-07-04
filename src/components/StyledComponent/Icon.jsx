@@ -4,7 +4,7 @@ import { MdOutlineContactPage, MdPerson } from "react-icons/md";
 import { ImHtmlFive2 } from "react-icons/im";
 import { TbBrandCss3, TbBrandRedux } from "react-icons/tb";
 import { FaReact, FaSass } from "react-icons/fa";
-import { SiJavascript, SiMui, SiPhp } from "react-icons/si";
+import { SiJavascript, SiMui, SiPhp, SiTypescript } from "react-icons/si";
 import {
   SiStyledcomponents,
   SiFirebase,
@@ -38,6 +38,8 @@ export const FaSasss = StyledIcon2(FaSass);
 export const SiMuis = StyledIcon2(SiMui);
 export const SiStyledcomponentss = StyledIcon2(SiStyledcomponents);
 export const SiJavascripts = StyledIcon2(SiJavascript);
+export const SiTypescripts = StyledIcon2(SiTypescript);
+
 export const FaReacts = StyledIcon2(FaReact);
 export const SiPhps = StyledIcon2(SiPhp);
 export const GrMysqls = StyledIcon2(GrMysql);
@@ -59,6 +61,7 @@ export const FaSass3 = StyledIcon3(FaSass);
 export const SiMui3 = StyledIcon3(SiMui);
 export const SiStyledcomponents3 = StyledIcon3(SiStyledcomponents);
 export const SiJavascript3 = StyledIcon3(SiJavascript);
+export const SiTypescript3 = StyledIcon3(SiTypescript);
 export const FaReact3 = StyledIcon3(FaReact);
 export const SiPhp3 = StyledIcon3(SiPhp);
 export const GrMysql3 = StyledIcon3(GrMysql);

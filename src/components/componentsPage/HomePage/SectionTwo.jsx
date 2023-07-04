@@ -19,6 +19,7 @@ import {
   SiMuis,
   SiPhps,
   SiReduxs,
+  SiTypescripts,
   TbBrandCss3s,
 } from "../../StyledComponent/Icon";
 import { Grow } from "@mui/material";
@@ -152,6 +153,13 @@ const SectionTwo = () => {
               <ContainerFlex>
                 <SiJavascripts />
                 <Text51> JavaScript</Text51>
+              </ContainerFlex>
+            </StyledButton31>
+
+            <StyledButton31 icon={SiTypescripts}>
+              <ContainerFlex>
+                <SiTypescripts />
+                <Text51> TypeScript</Text51>
               </ContainerFlex>
             </StyledButton31>
 
