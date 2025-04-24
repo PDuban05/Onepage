@@ -23,6 +23,7 @@ import {
 } from "../../StyledComponent/Icon";
 import { CardActionArea, Grow, Zoom } from "@mui/material";
 import { useSelector } from "react-redux";
+import Footer from "./Footer";
 
 const ContainerFlex = styled.div`
   width: 100%;
@@ -44,6 +45,7 @@ const ContainerFlex2 = styled.div`
 `;
 
 const StyledContainerSection = styled(ContainerSection)`
+position: relative;
   @media screen and (max-width: 768px) {
     height: auto;
   }
@@ -79,6 +81,8 @@ const SectionThird = () => {
 
   return load ? (
     <StyledContainerSection id="component2">
+
+    
       <StyledContainerPage>
         <Text6> {idioma.projectsText} </Text6>
         <Text7>
@@ -132,9 +136,8 @@ const SectionThird = () => {
                 <ContainerCardheader>
                   <CardImg src="https://firebasestorage.googleapis.com/v0/b/tienda-e-commerce-55251.appspot.com/o/Proyects%2FCaptura%20de%20pantalla%202023-06-21%20150752.png?alt=media&token=02f6dcec-55b5-48af-94fb-133bf9d9bed8" />
                 </ContainerCardheader>
-
                 <ContainerCardBody>
-                  <Text6>Calculadora de física</Text6>
+                  <Text6>{idioma.calculator}</Text6>
                   <Text7> {idioma.calculatorText} </Text7>
 
                   <ContainerFlex>
@@ -159,9 +162,44 @@ const SectionThird = () => {
                 </ContainerCardFooter>
               </StyledCardActionArea>
             </ContainerCard>
+
+            <ContainerCard>
+              <StyledCardActionArea>
+                <ContainerCardheader>
+                  <CardImg src="https://firebasestorage.googleapis.com/v0/b/prueba-4dd37.appspot.com/o/PortadaEcoyuma.webp?alt=media&token=26bfe67f-7ef5-4636-80ab-681699e2d3dd" />
+                </ContainerCardheader>
+
+                <ContainerCardBody>
+                  <Text6>{idioma.ecoyuma}</Text6>
+                  <Text7> {idioma.ecoyumaText} </Text7>
+
+                  <ContainerFlex>
+                    <ContainerCardIco>
+                      <ImHtmlFive23 />
+                    </ContainerCardIco>
+                    <ContainerCardIco>
+                      <SiJavascript3 style={{ transform: "scale(0.8)" }} />
+                    </ContainerCardIco>
+                    <ContainerCardIco>
+                      <FaSass3 />
+                    </ContainerCardIco>
+                  </ContainerFlex>
+                </ContainerCardBody>
+                <ContainerCardFooter>
+                  <a
+                    href="https://tienda.ecoyuma.com.co/"
+                    target="_blank"
+                  >
+                    <Text71> Demo</Text71>
+                  </a>
+                </ContainerCardFooter>
+              </StyledCardActionArea>
+            </ContainerCard>
           </ContainerFlex2>
         </Zoom>
+
       </StyledContainerPage>
+      <Footer/>
     </StyledContainerSection>
   ) : null;
 };

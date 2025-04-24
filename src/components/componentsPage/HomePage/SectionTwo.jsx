@@ -209,6 +209,7 @@ const SectionTwo = () => {
                 <Text51> Figma</Text51>
               </ContainerFlex>
             </StyledButton31>
+            
           </ContainerFlexColumn>
         </StyledContainerPage>
       </Grow>

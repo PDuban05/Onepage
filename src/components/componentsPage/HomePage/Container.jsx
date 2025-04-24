@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const Container = styled.article`
   width: 100%;
   height: auto;
+  position: relative;
 `;
 
 export const ContainerSection = styled.section`
@@ -22,6 +23,7 @@ export const ContainerPage = styled.div`
 
 export const StyledContainerPage = styled(ContainerPage)`
   padding: 80px 30px;
+  height: auto;
 
   @media screen and (max-width: 768px) {
     padding: 30px 0 0 0;

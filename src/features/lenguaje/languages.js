@@ -7,35 +7,39 @@ const translations = {
         about: "Sobre mí",
         projects: "Proyectos",
         aboutText:
-            "Soy Pedro Dubán Moreno, estudiante de Ingeniería de Sistemas y desarrollador frontend. Mi enfoque principal es crear experiencias atractivas y funcionales para los usuarios utilizando tecnologías actuales. También tengo conocimientos sólidos en desarrollo backend, lo que me permite abordar proyectos de manera integral.",
-        aboutText2: "Soy resolutivo, me adapto fácilmente a equipos de trabajo y siempre estoy dispuesto a aprender nuevas tecnologías. Me apasiona la programación y estoy comprometido con seguir creciendo profesionalmente y crear soluciones innovadoras en la ingeniería de sistemas.",
+            "Soy Pedro Dubán Moreno, ingeniero de sistemas y desarrollador frontend enfocado en crear experiencias web atractivas, funcionales y centradas en el usuario, utilizando tecnologías modernas.",
+        aboutText2:
+            "También tengo conocimientos sólidos en desarrollo backend, lo que me permite abordar proyectos de forma integral, desde la interfaz hasta la lógica del servidor, con atención a la eficiencia y la seguridad.",
         aboutText3: "Mis habilidades",
         aboutText4: "Estas son mis tecnologías favoritas.",
         projectsText: "Mis proyectos",
         projectsText1: "En esta sección podrás ver mis proyectos más destacados.",
-        markwall: "E-commerce, desarrollado con react y redux",
+        markwall: "E-commerce, desarrollado con React y Redux",
         calculator: "Calculadora de física",
-        calculatorText: "Calculadora, desarrolladas con JavaScript ",
-
+        calculatorText: "Calculadora, desarrollada con JavaScript",
+        ecoyuma: "Tienda Ecoyuma",
+        ecoyumaText: "E-commerce, desarrollado con PHP",
     },
     english: {
-        welcomeMessage: "Hello my Name Is",
+        welcomeMessage: "Hello, my name is",
         developer: "Developer",
-        phrase: "I am passionate about programming and learning new technologies.",
+        phrase: "I'm passionate about programming and learning new technologies.",
         home: "Home",
-        about: "About me",
+        about: "About Me",
         projects: "Projects",
         aboutText:
-            "I am Pedro Dubán Moreno, a Systems Engineering student and frontend developer. My main focus is creating attractive and functional experiences for users using current technologies. I also have solid knowledge in backend development, which allows me to approach projects in an integral way.",
-        aboutText2: " I am decisive, I adapt easily to work teams and I am always willing to learn new technologies. I'm passionate about programming and I am committed to continue growing professionally and create innovative solutions in the engineering of systems.",
+            "I'm Pedro Dubán Moreno, a systems engineer and frontend developer focused on building modern, user-centered web experiences that are both engaging and functional.",
+        aboutText2:
+            "I also have solid backend development skills, which allow me to approach projects from end to end — from the user interface to server-side logic — with attention to efficiency and security.",
         aboutText3: "My skills",
         aboutText4: "These are my favorite technologies.",
         projectsText: "My projects",
-        projectsText1: "In this section you can see my most outstanding projects.",
-        markwall: "E-commerce, developed with react and redux",
-        calculator: "physics calculator",
+        projectsText1: "In this section, you can see my most outstanding projects.",
+        markwall: "E-commerce, developed with React and Redux",
+        calculator: "Physics Calculator",
         calculatorText: "Calculator, developed with JavaScript",
-
+        ecoyuma: "Ecoyuma Store",
+        ecoyumaText: "E-commerce, developed with PHP",
     },
 };
 

@@ -1,3 +1,4 @@
+import Footer from "../../componentsPage/HomePage/Footer";
 import GlobalStyles from "./GlobalStyles";
 import { ThemeContext } from "./themeContext";
 import { themes } from "./themes";
@@ -19,6 +20,7 @@ const ThemeProvider = ({ children }) => {
       <StyledThemeProvider theme={themes[theme]}>
         <GlobalStyles />
         {children}
+      
       </StyledThemeProvider>
     </ThemeContext.Provider>
   );
