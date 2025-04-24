@@ -58,6 +58,7 @@ export const AiFillGithubs3 = StyledIcon3(AiFillGithub);
 export const ImHtmlFive23 = StyledIcon3(ImHtmlFive2);
 export const TbBrandCss33 = StyledIcon3(TbBrandCss3);
 export const FaSass3 = StyledIcon3(FaSass);
+export const Siphp3 = StyledIcon3(SiPhp);
 export const SiMui3 = StyledIcon3(SiMui);
 export const SiStyledcomponents3 = StyledIcon3(SiStyledcomponents);
 export const SiJavascript3 = StyledIcon3(SiJavascript);

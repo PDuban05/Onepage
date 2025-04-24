@@ -18,6 +18,7 @@ import {
   SiFirebase3,
   SiJavascript3,
   SiMui3,
+  Siphp3,
   SiStyledcomponents3,
   TbBrandRedux3,
 } from "../../StyledComponent/Icon";
@@ -181,8 +182,11 @@ const SectionThird = () => {
                       <SiJavascript3 style={{ transform: "scale(0.8)" }} />
                     </ContainerCardIco>
                     <ContainerCardIco>
-                      <FaSass3 />
+                      <Siphp3 />
                     </ContainerCardIco>
+
+
+
                   </ContainerFlex>
                 </ContainerCardBody>
                 <ContainerCardFooter>
